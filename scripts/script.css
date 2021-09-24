@@ -4,3 +4,31 @@ body{
     font-size: 12pt;
     background-color:  #c2d6d6;
 }
+ul.ulnav{
+    border-radius: 5px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+} 
+li.linav{
+    float: left;
+}
+li.linav a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a.active{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a:hover{
+    background-color: rgba(0,0,0,0.2);
+}
+ 
