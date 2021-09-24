@@ -1,6 +1,6 @@
 body{
     color: #009933;
-    font: verdana;
+    font-family: verdana;
     font-size: 12pt;
     background-color:  #c2d6d6;
 }
@@ -31,5 +31,9 @@ li.linav a.active{
 }
 li.linav a:hover{
     background-color: rgba(0,0,0,0.2);
+}
+.title{
+    font-size: 23pt;
+    font-family: Verdana;
 }
  
