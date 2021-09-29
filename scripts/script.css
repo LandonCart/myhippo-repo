@@ -78,19 +78,16 @@ h1 {
 .column {
     float: left;
     width: 25%;
-}
-    
-    
+}   
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
-    
-    
+}  
 .content {
     background-color: white;
     padding: 10px;
+    
 }  
 screen and (max-width: 900px) {
       .column {
