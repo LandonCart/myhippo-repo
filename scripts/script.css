@@ -79,6 +79,8 @@ li.linav a:hover{
     font-family: Verdana;
     text-align: center;
 }
+<<<<<<< HEAD
+=======
 div.text-box{
     margin-left: auto;
     margin-right: auto;
@@ -88,33 +90,6 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
-* {
-{
-    box-sizing: border-box;
-}
-  
-.column {
-    float: left;
-    padding: 5px;
-}
-  
-  /* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-{
-    box-sizing: border-box;
-}
-body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
 }  
 .main {
     max-width: 1000px;
@@ -146,10 +121,13 @@ h1 {
     
 }  
 screen and (max-width: 900px) {
-      .column {
-        width: 50%;
+    .column {
+    width: 50%;
 } 
 screen and (max-width: 600px) {
     .column {
-    width: 100%;
+ width: 100%;
 }
+
+  
+>>>>>>> 5dee0d9df9f06cb35368bf0b83da1ac19c69e840
