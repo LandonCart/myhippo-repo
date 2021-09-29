@@ -13,7 +13,7 @@ ul.ulnav{
 } 
 li.linav{
     float: left;
-    background-color: salmon;
+    background-color: rgb(235, 105, 91);
 }
 li.linav a{
     display: block;
@@ -41,11 +41,29 @@ div.text-box{
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    height: 200px;
+    height: 230px;
     border-radius: 10px;
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
+<<<<<<< HEAD
 
 
+=======
+* {
+    box-sizing: border-box;
+}
+  
+  .column {
+    float: left;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+>>>>>>> c39d8e868b2d7c8c77731c577a6ac31dc5530780
  
