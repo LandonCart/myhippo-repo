@@ -49,6 +49,7 @@ div.text-box{
     background-color: rgba(97, 89, 89, 0.3);
 }
 * {
+{
     box-sizing: border-box;
 }
   
@@ -62,4 +63,53 @@ div.text-box{
     content: "";
     clear: both;
     display: table;
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}  
+.main {
+    max-width: 1000px;
+    margin: auto;
+} 
+h1 {
+    font-size: 60px;
+    word-break: break-all;
+}  
+.row {
+    margin: 8px -16px;
+}  
+.row,
+.row > .column {
+    padding: 8px;
+}  
+.column {
+    float: left;
+    width: 25%;
+}   
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+.content {
+    background-color: white;
+    padding: 10px;
+    
+}  
+screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+} 
+screen and (max-width: 600px) {
+    .column {
+    width: 100%;
 }
