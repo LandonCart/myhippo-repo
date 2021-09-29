@@ -37,33 +37,64 @@ li.linav a:hover{
     font-family: Verdana;
     text-align: center;
 }
-div.text-box{
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    height: 230px;
-    border-radius: 10px;
-    border: 3px;
-    background-color: rgba(97, 89, 89, 0.3);
-}
-<<<<<<< HEAD
-
-
-=======
-* {
+{
     box-sizing: border-box;
 }
   
-  .column {
+.column {
     float: left;
     padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
+}
+
   .row::after {
     content: "";
     clear: both;
     display: table;
-  }
->>>>>>> c39d8e868b2d7c8c77731c577a6ac31dc5530780
- 
+{
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+}  
+.main {
+    max-width: 1000px;
+    margin: auto;
+} 
+h1 {
+    font-size: 60px;
+    word-break: break-all;
+}  
+.row {
+    margin: 8px -16px;
+}  
+.row,
+.row > .column {
+    padding: 8px;
+}  
+.column {
+    float: left;
+    width: 25%;
+}
+    
+    
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+    
+.content {
+    background-color: white;
+    padding: 10px;
+}  
+screen and (max-width: 900px) {
+      .column {
+        width: 50%;
+} 
+screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+}
