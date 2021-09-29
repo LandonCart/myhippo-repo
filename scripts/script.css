@@ -48,21 +48,18 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
-
-
 * {
     box-sizing: border-box;
 }
   
-  .column {
+.column {
     float: left;
     padding: 5px;
-  }
+}
   
   /* Clearfix (clear floats) */
-  .row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
- 
+}
