@@ -4,29 +4,31 @@ body{
     font-size: 12pt;
     background-color:  #c2d6d6;
 }
-ul.ulnav{
-    border-radius: 5px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-} 
-li.linav{
-    float: left;
+#header-table{
+    margin-left: auto;
+    margin-right: auto;
     background-color: rgb(235, 105, 91);
+    border-radius: 8px;
 }
-li.linav a{
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+#header-tr{
+    vertical-align: center;
 }
-li.linav a.active{
-    display: block;
-    color: rgb(255, 255, 255);
+#header-td{
     text-align: center;
-    padding: 14px 16px;
+    width: 150px;
+    background-color: rgb(235, 105, 91);
+    padding: 10px;
+}
+#header-td:hover{
+    text-align: center;
+    width: 150px;
+    background-color: rgb(102, 78, 76);
+    padding: 10px;
+}
+
+a.active{
+    color:#FFFFFF;
+    text-align: center;
     text-decoration: none;
 }
 li.linav a:hover{
@@ -46,10 +48,8 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
-<<<<<<< HEAD
 
 
-=======
 * {
     box-sizing: border-box;
 }
@@ -65,5 +65,4 @@ div.text-box{
     clear: both;
     display: table;
   }
->>>>>>> c39d8e868b2d7c8c77731c577a6ac31dc5530780
  
