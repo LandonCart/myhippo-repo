@@ -39,8 +39,6 @@ li.linav a:hover{
     font-family: Verdana;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
 div.text-box{
     margin-left: auto;
     margin-right: auto;
@@ -50,9 +48,43 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
-* {
-{
-    box-sizing: border-box;
+}  
+.main {
+    max-width: 1000px;
+    margin: auto;
+} 
+h1 {
+    font-size: 60px;
+    word-break: break-all;
+}  
+.row {
+    margin: 8px -16px;
+}  
+.row,
+.row > .column {
+    padding: 8px;
+}  
+.column {
+    float: left;
+    width: 25%;
+}   
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+.content {
+    background-color: white;
+    padding: 10px;
+    
+}  
+screen and (max-width: 900px) {
+    .column {
+    width: 50%;
+} 
+screen and (max-width: 600px) {
+    .column {
+ width: 100%;
 }
+
   
->>>>>>> d6bfa49c282314ab0cb449c5f17423c8cfed2ecc
