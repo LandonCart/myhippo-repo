@@ -77,6 +77,17 @@ li.linav a:hover{
     font-size: 23pt;
     font-family: Verdana;
     text-align: center;
+    text-decoration: underline;
+}
+div.text-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 230px;
+    border-radius: 10px;
+    border: 3px;
+    background-color: rgba(97, 89, 89, 0.3);
+}
 } 
 .main {
     max-width: 1000px;
@@ -104,6 +115,11 @@ h1 {
 }  
 .content {
     background-color: white;
+    padding: 10px;
+    
+} 
+#gordan{
+    float: right;
     padding: 10px;  
 }  
 div.text-box{
