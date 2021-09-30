@@ -77,7 +77,6 @@ li.linav a:hover{
     font-size: 23pt;
     font-family: Verdana;
     text-align: center;
-<<<<<<< HEAD
     text-decoration: underline;
 }
 div.text-box{
@@ -89,9 +88,7 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
-=======
 } 
->>>>>>> 32bd94da06e27c107b9d13ea84a4cb972d2a1bb6
 .main {
     max-width: 1000px;
     margin: auto;
@@ -118,15 +115,11 @@ h1 {
 }  
 .content {
     background-color: white;
-<<<<<<< HEAD
     padding: 10px;
     
 } 
 #gordan{
     float: right;
-}
-  
-=======
     padding: 10px;  
 }  
 div.text-box{
@@ -145,4 +138,3 @@ img {
     margin-right: auto;
 }
 
->>>>>>> 32bd94da06e27c107b9d13ea84a4cb972d2a1bb6
