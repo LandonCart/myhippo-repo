@@ -77,6 +77,7 @@ li.linav a:hover{
     font-size: 23pt;
     font-family: Verdana;
     text-align: center;
+    text-decoration: underline;
 }
 div.text-box{
     margin-left: auto;
@@ -87,7 +88,6 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
-}  
 .main {
     max-width: 1000px;
     margin: auto;
@@ -116,14 +116,8 @@ h1 {
     background-color: white;
     padding: 10px;
     
-}  
-screen and (max-width: 900px) {
-    .column {
-    width: 50%;
 } 
-screen and (max-width: 600px) {
-    .column {
- width: 100%;
+#gordan{
+    float: right;
 }
-
   
