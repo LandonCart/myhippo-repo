@@ -1,5 +1,5 @@
 body{
-    color: #009933;
+    color: #72a784;
     font-family: verdana;
     font-size: 12pt;
     background-color:  #c2d6d6;
@@ -38,19 +38,7 @@ li.linav a:hover{
     font-size: 23pt;
     font-family: Verdana;
     text-align: center;
-}
-<<<<<<< HEAD
-=======
-div.text-box{
-    margin-left: auto;
-    margin-right: auto;
-    width: 700px;
-    height: 230px;
-    border-radius: 10px;
-    border: 3px;
-    background-color: rgba(97, 89, 89, 0.3);
-}
-}  
+} 
 .main {
     max-width: 1000px;
     margin: auto;
@@ -89,5 +77,3 @@ screen and (max-width: 600px) {
  width: 100%;
 }
 
-  
->>>>>>> 5dee0d9df9f06cb35368bf0b83da1ac19c69e840
