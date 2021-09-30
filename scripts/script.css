@@ -11,7 +11,7 @@ body{
   
 .image {
     display: block;
-    width: 100%;
+    width: 400;
     height: auto;
 }
   
@@ -21,8 +21,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100%;
-    width: 100%;
+    width: 100;
     opacity: 0;
     transition: .5s ease;
     background-color: #c82d2d;
@@ -79,8 +78,6 @@ li.linav a:hover{
     font-family: Verdana;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
 div.text-box{
     margin-left: auto;
     margin-right: auto;
@@ -130,4 +127,3 @@ screen and (max-width: 600px) {
 }
 
   
->>>>>>> 5dee0d9df9f06cb35368bf0b83da1ac19c69e840
