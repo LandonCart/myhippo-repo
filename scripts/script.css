@@ -1,5 +1,5 @@
 body{
-    color: #009933;
+    color: #72a784;
     font-family: verdana;
     font-size: 12pt;
     background-color:  #c2d6d6;
@@ -77,6 +77,7 @@ li.linav a:hover{
     font-size: 23pt;
     font-family: Verdana;
     text-align: center;
+<<<<<<< HEAD
     text-decoration: underline;
 }
 div.text-box{
@@ -88,6 +89,9 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 }
+=======
+} 
+>>>>>>> 32bd94da06e27c107b9d13ea84a4cb972d2a1bb6
 .main {
     max-width: 1000px;
     margin: auto;
@@ -114,6 +118,7 @@ h1 {
 }  
 .content {
     background-color: white;
+<<<<<<< HEAD
     padding: 10px;
     
 } 
@@ -121,3 +126,23 @@ h1 {
     float: right;
 }
   
+=======
+    padding: 10px;  
+}  
+div.text-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 400px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgba(150, 146, 146, 0.8);
+    font-size: 23pt;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+>>>>>>> 32bd94da06e27c107b9d13ea84a4cb972d2a1bb6
