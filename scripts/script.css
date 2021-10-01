@@ -99,7 +99,6 @@ h1 {
 .row {
     margin: 8px -16px;
 }  
-.row,
 .row > .column {
     padding: 8px;
 }  
@@ -147,15 +146,16 @@ img {
     display: table;
 }
 h3{
-    text-align: center;
-}
+    text-align: center;}
+
+*{box-sizing: border-box;}
 .column2{    
-    float: center;
-    width: 100%;
+    float: left;
+    width: 32%;
     padding: 5px;
- }
+}
   .row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
