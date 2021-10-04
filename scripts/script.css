@@ -65,7 +65,7 @@ div.text-box{
     margin:0;
     padding:0;
     text-align:center;
-    background-color: darkorange;
+    background-color: salmon;
 }
 .nav li{
     display:inline;
@@ -82,10 +82,10 @@ div.text-box{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: darkorange;
+    background-color: blueviolet;
 }
 li a:hover {
-    background-color: rgb(194, 101, 15);
+    background-color: violet;
   }
 .main {
     max-width: 1000px;
