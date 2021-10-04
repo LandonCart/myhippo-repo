@@ -43,36 +43,6 @@ body{
     text-align: center;
 }
 
-#header-table{
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgb(235, 105, 91);
-    border-radius: 10px;
-}
-#header-tr{
-    vertical-align: center;
-}
-#header-td{
-    text-align: center;
-    width: 150px;
-    background-color: rgb(235, 105, 91);
-    padding: 10px;
-}
-#header-td:hover{
-    text-align: center;
-    width: 160px;
-    background-color: rgb(102, 78, 76);
-    padding: 10px;
-}
-
-a.active{
-    color:#FFFFFF;
-    text-align: center;
-    text-decoration: none;
-}
-li.linav a:hover{
-    background-color: rgba(0,0,0,0.2);
-}
 .title{
     font-size: 23pt;
     font-family: Verdana;
@@ -88,6 +58,32 @@ div.text-box{
     border: 3px;
     background-color: rgba(97, 89, 89, 0.3);
 } 
+.nav{
+    border:1px solid rgb(0, 0, 0);
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    background-color: darkorange;
+}
+.nav li{
+    display:inline;
+}
+.nav li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkorange;
+}
 .main {
     max-width: 1000px;
     margin: auto;
