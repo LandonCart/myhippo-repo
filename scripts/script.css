@@ -91,6 +91,9 @@ li a:hover {
     max-width: 1000px;
     margin: auto;
 } 
+#hippo{
+    display: inline-block;
+}
 h1{
     font-size: 23px;
     word-break: break-all;
