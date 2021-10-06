@@ -8,13 +8,11 @@ body{
     position: relative;
     width: 50%;
 }
-  
 .image {
     display: block;
     width: 400;
     height: 300;
 }
-  
 .overlay {
     position: absolute;
     top: 0;
@@ -26,11 +24,9 @@ body{
     transition: .5s ease;
     background-color: #c82d2d;
 }
-  
 .container:hover .overlay {
     opacity: 1;
 }
-  
 .text {
     color: white;
     font-size: 20px;
@@ -66,8 +62,6 @@ div.text-box{
     padding:0;
     text-align:center;
     background-color: salmon;
-   
-
 }
 .nav li{
     display:inline;
